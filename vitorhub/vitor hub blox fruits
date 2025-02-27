@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "SPOCK HUB V2" .. Fluent.Version,
+    Title = "SPOCK HUB" .. Fluent.Version,
     SubTitle = "by Spock",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
@@ -31,28 +31,28 @@ do
 
 
     Tabs.Main:AddParagraph({
-        Title = "Paragraph",
-        Content = "This is a paragraph.\nSecond line!"
+        Title = "blox fruits aba",
+        Content = "essa e um aba para pegar scripts de blox fruits"
     })
 
 
 
     Tabs.Main:AddButton({
-        Title = "alto farm",
-        Description = "alto farm in buid",
+        Title = "redz hub",
+        Description = "o melhor do momento",
         Callback = function()
             Window:Dialog({
-                Title = "Title",
-                Content = "This is a dialog",
+                Title = "Redz hub blox fruits",
+                Content = "dezeja executar redz hub",
                 Buttons = {
                     {
-                        Title = "Confirm",
+                        Title = "confirmar",
                         Callback = function()
-                            print("Confirmed the dialog.")
+                            print("loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))"
                         end
                     },
                     {
-                        Title = "Cancel",
+                        Title = "cancelar",
                         Callback = function()
                             print("Cancelled the dialog.")
                         end
